@@ -217,7 +217,7 @@ VERY IMPORTANT:
 - Each task and subtask should be a checklist item
 - Provide context enough per task so a developer should be able to implement it
 - Each task should have a number id
-- Each task should list dependendent task ids
+- Each task should list dependent task ids
 ```
 5. Save this as `docs/todo.md` inside your project folder
 
