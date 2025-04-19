@@ -557,7 +557,7 @@ on their own projects.
 
 # 💖 Acknowledgements
 
-This guide was inspired by the great [llm-course](https://github.com/milanm/DevOps-Roadmap) from Maxime Labonne.
+This guide was inspired by the great [llm-course](https://github.com/mlabonne/llm-course) from Maxime Labonne.
 
 Special thanks to:
 
