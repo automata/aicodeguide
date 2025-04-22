@@ -263,9 +263,11 @@ idea of using a stdlib of Cursor rules
 part 2 of the previous post, where Geoff suggests to use LLMs to build specs
 (PRD) and Cursor rules automatically
 - [My LLM codegen workflow atm](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) by Harper Reed
+- [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices) by Anthropic: it's towards their Claude Code tool but it has
+interesting tips for AI coding workflows based on any LLM model
 - [Prompt Engineering](https://www.kaggle.com/whitepaper-prompt-engineering) by Lee Boonstra from Google: it's a 70 pages doc with interesting tips
   on how to prompt engineer, with a section about code generation
-- [Anthropic's Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
+- [Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) by Anthropic
 - [RepoPrompt](https://repoprompt.com/) is a tool to help assemble context from your project. It's worth watching an overview video of a [RepoPrompt Workflow](https://www.youtube.com/watch?v=fm3VreCt-5E) to learn how to easily leverage these tools to provide more context in your vibe coding prompts.
 
 ## Which LLM model I should use?
