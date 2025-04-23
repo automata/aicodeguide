@@ -1,6 +1,17 @@
 # Building Coding Agents
 
-Existing strategies to build coding agents:
+General design of a coding agent:
+
+```
+   .-------.         .-----.
+   | Agent | <--+--> | LLM | Architect
+   `-------'    |    `-----'
+    - tools     |    .-----.
+    - chat logs `--> | LLM | Editor (search/replace generator)
+                     `-----'
+```
+
+There are some strategies to implement the editing part of coding agents:
 
 - Use native tools support on LLMs and expose functions like `read_file`, `edit_file`, ...
     - Pros:
@@ -28,6 +39,15 @@ Existing strategies to build coding agents:
         - Possible to use cheaper models like DeepSeek
     - Cons:
         - Experimental, error prone
+
+At same time, there are also some strategies on how to organize an agent to be
+able to do efficient coding:
+
+- Only one code writer/editor, usually with tools
+- One architect LLM and one independent writer LLM: the architect understands
+  the global picture (ie all source files, requirements, etc) and asks for a
+  writer LLM to iterate over each file that requires changes and suggest
+  search/replace blocks that "answers" the user request
 
 We're going to implement each one in the following sections.
 
