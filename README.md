@@ -286,6 +286,23 @@ list of goals/use you might have and which model to use it for:
 | Coding (Agent mode)  | Gemini 2.5 Pro, Claude 3.7 Sonnet, GPT 4.1 |
 | Coding (Chat)        | Claude 3.5 Sonnet                          |
 
+## What to do when the dreaded "rate limit" message hits
+
+Switch to a different model.
+
+There are at least two different reasons this can happen. You can make
+a heavy request that exceeds the model's input/output token limit. Or,
+if the server cluster it's running on is having a bad day, you may be
+throttled to reduce the load. The error messages you get are often not
+transparent about this.  You can find a more detailed explanation
+[here](https://platform.openai.com/docs/guides/rate-limits).
+
+Different models have very different token limits. For example, as I
+write in late April 2025, gpt-4.1-mini is much more generous than
+gpt-4.1. Have several API keys in your pocket (this is inexpensive, since
+you pay as you go) and visit the pages describing rate limits.
+Here's [Anthropic's]https://console.anthropic.com/settings/limits as an example.
+
 ## How do I set up project-wide rules?
 
 You can define rules or conventions that will be applied to your project by "injecting" them in the
