@@ -51,6 +51,7 @@ Cool, let's start!
 - [The revenge of the junior developer](https://sourcegraph.com/blog/revenge-of-the-junior-developer) by Steve Yegge
 - [Dear Student: Yes, AI is here, you're screwed unless you take action...](https://ghuntley.com/screwed/) by Geoffrey Huntley
 - [How to Build an Agent](https://ampcode.com/how-to-build-an-agent) by Thorsten Ball
+- [Using LLMs for code](https://simonwillison.net/2025/Mar/11/using-llms-for-code/) by Simon Willison
 
 ## AI coding? Vibe coding?
 
@@ -272,6 +273,7 @@ interesting tips for AI coding workflows based on any LLM model
   on how to prompt engineer, with a section about code generation
 - [Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) by Anthropic
 - [RepoPrompt](https://repoprompt.com/) is a tool to help assemble context from your project. It's worth watching an overview video of a [RepoPrompt Workflow](https://www.youtube.com/watch?v=fm3VreCt-5E) to learn how to easily leverage these tools to provide more context in your vibe coding prompts.
+- [Not all AI-assisted programming is vibe coding (but vibe coding rocks)](https://simonwillison.net/2025/Mar/19/vibe-coding/) by Simon Willison
 
 ## Which LLM model I should use?
 
@@ -483,6 +485,10 @@ Another great tip is to prompt for changes at task level and not in project
 level. For instance, focus in one feature you want to implement and ask Cursor
 Agent to implement it. Give a mini-PRD for the specific feature. Imagine that
 you're guiding a junior developer to work in a specific GH ticket :-)
+
+📚 Resources:
+
+- [Karpathy's tweet about his way to use AI-assisted coding](https://x.com/karpathy/status/1915581920022585597)
 
 ## Well-structured prompting for well-structured design
 
