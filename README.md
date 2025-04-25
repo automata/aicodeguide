@@ -602,16 +602,19 @@ most of them and you'll find our honest opinion during the time we tested them.
 Some super interesting people implementing AI coding models/tools or using it
 on their own projects.
 
-- [@GeoffreyHuntley](https://x.com/GeoffreyHuntley)
-- [@aut0mata](https://x.com/aut0mata)
-- [@NathanWilbanks_](https://x.com/NathanWilbanks_)
-- [@skcd42](https://x.com/skcd42)
-- [@xingyaow_](https://x.com/xingyaow_)
-- [@_catwu](https://x.com/_catwu)
-- [@EyalToledano](https://x.com/EyalToledano)
-- [@skirano](https://x.com/skirano)
-- [@beyang](https://x.com/beyang)
-- [@esrtweet](https://x.com/esrtweet)
+- [Andrej Karpathy](https://x.com/karpathy)
+- [Geoffrey Huntley](https://x.com/GeoffreyHuntley)
+- [Eric S. Raymond](https://x.com/esrtweet)
+- [Vilson Vieira](https://x.com/aut0mata)
+- [Nathan Wilbanks](https://x.com/NathanWilbanks_) (agnt, SLOP)
+- [Sandeep Pani](https://x.com/skcd42) (Aider, AgentFarm)
+- [Xingyao Wang](https://x.com/xingyaow_) (OpenHands, AllHands)
+- [Cat Wu](https://x.com/_catwu) (Claude Code)
+- [Eyal Toledano](https://x.com/EyalToledano) (TaskMaster)
+- [Pietro Schirano](https://x.com/skirano)
+- [Beyang Liu](https://x.com/beyang) (SourceGraph)
+- [Simon Willison](https://x.com/simonw)
+- [Thorsten Ball](https://x.com/thorstenball) (Amp)
 
 # 💖 Acknowledgements
 
