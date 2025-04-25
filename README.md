@@ -280,13 +280,12 @@ interesting tips for AI coding workflows based on any LLM model
 LLMs are trained and finetuned with different goals, here is a comprehensive
 list of goals/use you might have and which model to use it for:
 
-| Goal                 | Models                                     |
-|----------------------|--------------------------------------------|
-| Brainstorming        | GPT 4.5, 4o, o3                            |
-| PRD creation         | GPT o1-pro                                 |
-| Task split           | GPT o1-pro                                 |
-| Coding (Agent mode)  | Gemini 2.5 Pro, Claude 3.7 Sonnet, GPT 4.1 |
-| Coding (Chat)        | Claude 3.5 Sonnet                          |
+| Goal                 | Models                                                  |
+|----------------------|---------------------------------------------------------|
+| Brainstorming        | GPT 4.5, 4o, o3, Grok                                   |
+| PRD creation         | GPT o1-pro, Grok                                        |
+| Task split           | GPT o1-pro                                              |
+| Coding               | Gemini 2.5 Pro, Claude 3.7 Sonnet, GPT 4.1, o3, o4-mini |
 
 ## What to do when the dreaded "rate limit" message hits
 
