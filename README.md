@@ -470,12 +470,13 @@ your starter kit.
 
 Another great idea is to index your project (that you just created with the
 starter kit) using Cursor's own indexing feature, or using some tool like
-[repomix](https://repomix.com/).
+[repomix](https://repomix.com/) or
+[files-to-prompt](https://github.com/simonw/files-to-prompt).
 
 ## Greenfield/clean state/fresh project vs existing codebase
 
 If you have an existing codebase, a good idea is to use
-[repomix](https://repomix.com/) or even [llmtxt](https://llmtext.com/)
+[repomix](https://repomix.com/) or [files-to-prompt](https://github.com/simonw/files-to-prompt)
 pack it into the context window.
 
 Another great tip is to prompt for changes at task level and not in project
@@ -586,6 +587,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [Claude Task master](https://github.com/eyaltoledano/claude-task-master)
 - [CodeGuide](https://www.codeguide.dev/)
 - [repomix](https://repomix.com/)
+- [files-to-prompt](https://github.com/simonw/files-to-prompt)
 - [repo2txt](https://github.com/donoceidon/repo2txt)
 - [Repo Prompt](https://repoprompt.com/)
 
