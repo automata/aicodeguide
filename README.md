@@ -566,6 +566,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [Roo Code](https://github.com/RooVetGit/Roo-Code)
 - [OpenAI Codex](https://github.com/openai/codex)
 - [Codebuff](https://www.codebuff.com/)
+- [opencode](https://github.com/opencode-ai/opencode)
 
 ## Webapps
 
@@ -585,6 +586,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [Claude Task master](https://github.com/eyaltoledano/claude-task-master)
 - [CodeGuide](https://www.codeguide.dev/)
 - [repomix](https://repomix.com/)
+- [repo2txt](https://github.com/donoceidon/repo2txt)
 - [Repo Prompt](https://repoprompt.com/)
 
 # 🤗 Who to follow
