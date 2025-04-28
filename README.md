@@ -488,6 +488,7 @@ you're guiding a junior developer to work in a specific GH ticket :-)
 📚 Resources:
 
 - [Karpathy's tweet about his way to use AI-assisted coding](https://x.com/karpathy/status/1915581920022585597)
+- [How to work with large codebases in Cursor](https://docs.cursor.com/guides/advanced/large-codebases)
 
 ## Well-structured prompting for well-structured design
 
