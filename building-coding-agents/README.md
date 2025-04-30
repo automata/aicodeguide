@@ -62,3 +62,8 @@ python3 -m venv .venv             # or uv venv
 source .venv/bin/activate
 pip install -r requirements.txt   # or uv pip install -r requirements.txt
 ```
+
+# References
+
+- [Agents](https://huyenchip.com/2025/01/07/agents.html) by Chip Huyen: it
+  presents a general design for what we see as modern agents
