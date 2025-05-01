@@ -288,6 +288,14 @@ list of goals/use you might have and which model to use it for:
 | Task split           | GPT o1-pro                                              |
 | Coding               | Gemini 2.5 Pro, Claude 3.7 Sonnet, GPT 4.1, o3, o4-mini |
 
+Given LLMs change in a daily basis, this table gets outdated fast. Please check
+the following leaderboards for more accurate comparison:
+
+- [OpenRouter's Models](https://openrouter.ai/models?categories=programming&fmt=table): Set categories as `programming` and also filtering
+  only the models that support `tools` is generally a good way to select models
+  for AI assisted coding
+- [Agent Leaderboard](https://huggingface.co/spaces/galileo-ai/agent-leaderboard)
+
 ## What to do when the dreaded "rate limit" message hits
 
 Switch to a different model.
