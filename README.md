@@ -596,6 +596,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [repomix](https://repomix.com/)
 - [files-to-prompt](https://github.com/simonw/files-to-prompt)
 - [repo2txt](https://github.com/donoceidon/repo2txt)
+- [stakgraph](https://github.com/stakwork/stakgraph)
 - [Repo Prompt](https://repoprompt.com/)
 
 # 🤗 Who to follow
