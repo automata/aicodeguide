@@ -52,6 +52,7 @@ Cool, let's start!
 - [Dear Student: Yes, AI is here, you're screwed unless you take action...](https://ghuntley.com/screwed/) by Geoffrey Huntley
 - [How to Build an Agent](https://ampcode.com/how-to-build-an-agent) by Thorsten Ball
 - [Using LLMs for code](https://simonwillison.net/2025/Mar/11/using-llms-for-code/) by Simon Willison
+- [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about) by Addy Osmani
 
 ## AI coding? Vibe coding?
 
