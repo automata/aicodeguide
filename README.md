@@ -340,6 +340,8 @@ for you! [Check Geoff's method on that](https://ghuntley.com/specs/).
 - [Windsurf Rules Docs](https://windsurf.com/editor/directory)
 - [Aider Conventions Docs](https://aider.chat/docs/usage/conventions.html)
 - [Aider Conventions Collection](https://github.com/Aider-AI/conventions): a collection of community-contributed convention files for use with Aider.
+- [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules): a curated list of
+  awesome .cursorrules files for enhancing your Cursor AI experience.
 
 ## How I avoid hallucinations? What is a PRD?
 
