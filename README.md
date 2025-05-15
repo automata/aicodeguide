@@ -1,9 +1,12 @@
 <div align="center">
-<img src="https://i.imgur.com/v0Tx6am.png" alt="AI Code Guide">
+  <img src="https://i.imgur.com/v0Tx6am.png" alt="AI Code Guide" />
   <p align="center">
     By <a href="https://x.com/aut0mata">Vilson Vieira</a> and
        <a href="https://x.com/esrtweet">Eric S. Raymond</a>
   </p>
+  <a href="https://discord.gg/ubf2tZcs">
+     <img src="https://i.imgur.com/uqKVFHj.png" alt="Join our Discord" />
+  </a>
 </div>
 <br/>
 
