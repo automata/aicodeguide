@@ -5,7 +5,7 @@
        <a href="https://x.com/esrtweet">Eric S. Raymond</a>
   </p>
   <a href="https://discord.gg/ubf2tZcs">
-     <img src="https://i.imgur.com/uqKVFHj.png" alt="Join our Discord" />
+     <img src="https://i.imgur.com/uqKVFHj.png" alt="Join our Discord" height="48" />
   </a>
 </div>
 <br/>
