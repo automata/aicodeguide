@@ -56,6 +56,7 @@ Cool, let's start!
 - [How to Build an Agent](https://ampcode.com/how-to-build-an-agent) by Thorsten Ball
 - [Using LLMs for code](https://simonwillison.net/2025/Mar/11/using-llms-for-code/) by Simon Willison
 - [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about) by Addy Osmani
+- [Become an AI-augmented engineer](https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer) by Mary Rose Cook
 
 ## AI coding? Vibe coding?
 
