@@ -291,7 +291,7 @@ list of goals/use you might have and which model to use it for:
 | Brainstorming        | GPT 4.5, 4o, o3, Grok                                   |
 | PRD creation         | GPT o1-pro, Grok                                        |
 | Task split           | GPT o1-pro                                              |
-| Coding               | Gemini 2.5 Pro, Claude 3.7 Sonnet, GPT 4.1, o3, o4-mini |
+| Coding               | Gemini 2.5 Pro, Claude Sonnet 4, GPT 4.1, o3, o4-mini |
 
 Given LLMs change in a daily basis, this table gets outdated fast. Please check
 the following leaderboards for more accurate comparison:
