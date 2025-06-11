@@ -57,6 +57,7 @@ Cool, let's start!
 - [Using LLMs for code](https://simonwillison.net/2025/Mar/11/using-llms-for-code/) by Simon Willison
 - [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about) by Addy Osmani
 - [Become an AI-augmented engineer](https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer) by Mary Rose Cook
+- [Raising an Agent podcast](https://ampcode.com/podcast) by Amp team
 
 ## AI coding? Vibe coding?
 
@@ -128,6 +129,10 @@ or use some LLM available in [OpenRouter](https://openrouter.ai/).
 - If you already know how to code and are a terminal maniac like us, check [aider](https://aider.chat/), [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
 or [OpenAI Codex](https://github.com/openai/codex).
 For those you'll need to setup API keys for Anthropic Claude, OpenAI GPT or for OpenRouter.
+
+- If you already know how to code, loves both terminal and some VSCode flavour, and really want to experiment
+the power of having subagents running in parallel for you, and don't care about costs but about getting
+things done, try [Amp](https://ampcode.com).
 
 > Suggestion: We really recommend creating an account in OpenRouter. It's really easy and you'll
 get access to the most updated LLM models and even free versions of it. For instance,
@@ -630,6 +635,17 @@ variables (eg platforms like Vercel offer this option)
 - Run validators and security vulnerability scanners in your package
 requirements
 
+## How to create my own AI coding agent?
+
+We're working on some tutorials on how to do it while building our own tools, so keep posted.
+The best intro is
+[this practical tutorial](https://ampcode.com/how-to-build-an-agent) by Thorsten
+where you build a simple agent that uses basic the
+minimal amount of tools (`list_files`, `read_file`, `edit_file`) in Go, step-by-step.
+
+If you want to go deeper, [this series of open source books](https://gerred.github.io/building-an-agentic-system)
+by Gerred is definetely a great start.
+
 # 🛠️  Tools
 
 Here we keep an updated list of main tools around using AI for coding. We tested
@@ -687,12 +703,15 @@ most of them and you'll find our honest opinion during the time we tested them.
 Some super interesting people implementing AI coding models/tools or using it
 on their own projects.
 
+- [Addy Osmani](https://addyosmani.com/)
 - [Andrej Karpathy](https://x.com/karpathy)
 - [Beyang Liu](https://x.com/beyang) (Amp)
 - [Cat Wu](https://x.com/_catwu) (Claude Code)
 - [Eric S. Raymond](https://x.com/esrtweet)
 - [Eyal Toledano](https://x.com/EyalToledano) (TaskMaster)
 - [Geoffrey Huntley](https://x.com/GeoffreyHuntley)
+- [Gerred Dillon](https://x.com/devgerred)
+- [Harper Reed](https://x.com/harper)
 - [Nathan Wilbanks](https://x.com/NathanWilbanks_) (agnt, SLOP)
 - [Pietro Schirano](https://x.com/skirano)
 - [Quinn Slack](https://x.com/sqs) (Amp)
