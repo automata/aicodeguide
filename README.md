@@ -703,7 +703,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 Some super interesting people implementing AI coding models/tools or using it
 on their own projects.
 
-- [Addy Osmani](https://addyosmani.com/)
+- [Addy Osmani](https://x.com/addyosmani)
 - [Andrej Karpathy](https://x.com/karpathy)
 - [Beyang Liu](https://x.com/beyang) (Amp)
 - [Cat Wu](https://x.com/_catwu) (Claude Code)
