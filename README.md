@@ -734,9 +734,11 @@ This guide was inspired by the great [llm-course](https://github.com/mlabonne/ll
 
 Special thanks to:
 
-* [Gabriela Thumé](https://github.com/gabithume) for everything ❤️
-* [Albert Espín](https://github.com/albert-espin) for thoughtful feedback and the first error corrections
-* ChatGPT 4o for generating the banner you see on the top, inspired by the
+- [Gabriela Thumé](https://github.com/gabithume) for everything ❤️
+- [Albert Espín](https://github.com/albert-espin) for thoughtful feedback and the first error corrections
+- [Geoffrey Huntley](https://x.com/GeoffreyHuntley) for pointing me to property-based tests and for all his great
+  tutorials and experiments around autonomous agents
+- ChatGPT 4o for generating the banner you see on the top, inspired by the
   incredible artist [Deathburger](https://citadel9.com/)
 
 # ⭐ Contributing
