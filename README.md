@@ -4,7 +4,7 @@
     By <a href="https://x.com/aut0mata">Vilson Vieira</a> and
        <a href="https://x.com/esrtweet">Eric S. Raymond</a>
   </p>
-  <a href="https://discord.gg/ubf2tZcs">
+  <a href="https://discord.gg/NrDfXmtvw3">
      <img src="https://i.imgur.com/uqKVFHj.png" alt="Join our Discord" height="48" />
   </a>
 </div>
