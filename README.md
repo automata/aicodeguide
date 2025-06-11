@@ -688,18 +688,19 @@ Some super interesting people implementing AI coding models/tools or using it
 on their own projects.
 
 - [Andrej Karpathy](https://x.com/karpathy)
-- [Geoffrey Huntley](https://x.com/GeoffreyHuntley)
-- [Eric S. Raymond](https://x.com/esrtweet)
-- [Vilson Vieira](https://x.com/aut0mata)
-- [Nathan Wilbanks](https://x.com/NathanWilbanks_) (agnt, SLOP)
-- [Sandeep Pani](https://x.com/skcd42) (Aider, AgentFarm)
-- [Xingyao Wang](https://x.com/xingyaow_) (OpenHands, AllHands)
+- [Beyang Liu](https://x.com/beyang) (Amp)
 - [Cat Wu](https://x.com/_catwu) (Claude Code)
+- [Eric S. Raymond](https://x.com/esrtweet)
 - [Eyal Toledano](https://x.com/EyalToledano) (TaskMaster)
+- [Geoffrey Huntley](https://x.com/GeoffreyHuntley)
+- [Nathan Wilbanks](https://x.com/NathanWilbanks_) (agnt, SLOP)
 - [Pietro Schirano](https://x.com/skirano)
-- [Beyang Liu](https://x.com/beyang) (SourceGraph)
+- [Quinn Slack](https://x.com/sqs) (Amp)
+- [Sandeep Pani](https://x.com/skcd42) (Aider, AgentFarm)
 - [Simon Willison](https://x.com/simonw)
+- [Vilson Vieira](https://x.com/aut0mata)
 - [Thorsten Ball](https://x.com/thorstenball) (Amp)
+- [Xingyao Wang](https://x.com/xingyaow_) (OpenHands, AllHands)
 
 # 💖 Acknowledgements
 
