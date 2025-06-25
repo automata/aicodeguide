@@ -58,6 +58,7 @@ Cool, let's start!
 - [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about) by Addy Osmani
 - [Become an AI-augmented engineer](https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer) by Mary Rose Cook
 - [Raising an Agent podcast](https://ampcode.com/podcast) by Amp team
+- [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) by Andrej Karpathy
 
 ## AI coding? Vibe coding?
 
@@ -677,6 +678,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [OpenAI Codex CLI](https://github.com/openai/codex)
 - [Codebuff](https://www.codebuff.com/)
 - [opencode](https://github.com/opencode-ai/opencode)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
 ## Webapps
 
@@ -704,6 +706,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [stakgraph](https://github.com/stakwork/stakgraph)
 - [Repo Prompt](https://repoprompt.com/)
 - [Uzi](http://uzi.sh/)
+- [Claudia](https://claudia.asterisk.so/)
 
 # 🤗 Who to follow
 
