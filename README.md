@@ -292,12 +292,12 @@ interesting tips for AI coding workflows based on any LLM model
 LLMs are trained and finetuned with different goals, here is a comprehensive
 list of goals/use you might have and which model to use it for:
 
-| Goal                 | Models                                                  |
-|----------------------|---------------------------------------------------------|
-| Brainstorming        | GPT 4.5, 4o, o3, Grok                                   |
-| PRD creation         | GPT o1-pro, Grok                                        |
-| Task split           | GPT o1-pro                                              |
-| Coding               | Gemini 2.5 Pro, Claude Sonnet 4, GPT 4.1, o3, o4-mini |
+| Goal                 | Models                                                        |
+|----------------------|---------------------------------------------------------------|
+| Brainstorming        | GPT 4.5, 4o, o3, Grok                                         |
+| PRD creation         | GPT o1-pro, Grok                                              |
+| Task split           | GPT o1-pro                                                    |
+| Coding               | Gemini 2.5 Pro, Claude Sonnet 4, Grok 4, GPT 4.1, o3, o4-mini |
 
 Given LLMs change in a daily basis, this table gets outdated fast. Please check
 the following leaderboards for more accurate comparison:
@@ -446,6 +446,11 @@ Another interesting tip is to use good MCP tools to integrate your coding agent
 to playwright or browser-use. This way you can avoid the copy-paste cycle of
 errors from the web browser into your AI agent, given the AI will control the
 browser and grab screenshots and errors messages by itself.
+
+If you want to use 3D content in your webapp and you're using React, it's
+interesting to use React Three Fiber instead of trying to use the three.js
+library directly. R3F makes it easier to deal with state given it wraps all
+three.js objects as React components.
 
 ### Backend
 
@@ -642,6 +647,64 @@ variables (eg platforms like Vercel offer this option)
 - Do not store sensible data in `localStorage`, `sessionStorage` or cookies
 - Run validators and security vulnerability scanners in your package
 requirements
+
+## How to use any LLM in Claude Code?
+
+You just want to try Kimi K2 or other LLM in your Claude Code CLI? You can use
+claude-code-router to make Claude Code CLI use a "proxy" running locally at
+your machine to route it to any model available at OpenRouter! The instructions
+bellow work for Kimi K2 but you can adapt it to any other LLM you want.
+
+First create an account at OpenRouter and grab your API key.
+
+Make sure you have Claude Code CLI installed:
+
+```
+npm install -g @anthropic-ai/claude-code
+```
+
+Then install claude-code-router:
+
+```
+npm install -g @musistudio/claude-code-router
+```
+
+Add the following lines to your `~/.claude-code-router/config.json` file,
+replacing `OPENROUTER_API_KEY` with your API key from OpenRouter:
+
+```
+{
+  "Providers": [
+    {
+      "name": "kimi-k2",
+      "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
+      "api_key": "OPENROUTER_API_KEY",
+      "models": [
+        "moonshotai/kimi-k2"
+      ],
+      "transformer": {
+        "use": ["openrouter"]
+      }
+    }
+  ],
+  "Router": {
+    "default": "kimi-k2,moonshotai/kimi-k2"
+  }
+}
+```
+
+Now just run Claude Code through the router:
+
+```
+ccr code
+```
+
+You should see Claude Code `API Base URL: http://127.0.0.1:3456`, which means it's
+using the local proxy created by claude-code-router. That's it!
+
+If you're only interested in Kimi K2 or other models from Moonshot, an
+alternative is to use the model provided by Moonshot itself:
+https://github.com/LLM-Red-Team/kimi-cc/blob/main/README_EN.md
 
 ## How to create my own AI coding agent?
 
