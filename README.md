@@ -731,6 +731,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [Devin](https://devin.ai)
 - [VSCode + GitHub Copilot](https://code.visualstudio.com/docs/copilot/setup)
 - [Amp](https://ampcode.com)
+- [Kiro](https://kiro.dev)
 
 ## CLI
 
