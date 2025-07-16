@@ -305,6 +305,7 @@ the following leaderboards for more accurate comparison:
 - [OpenRouter's Models](https://openrouter.ai/models?categories=programming&fmt=table): Set categories as `programming` and also filtering
   only the models that support `tools` is generally a good way to select models
   for AI assisted coding
+- [Models.dev](https://models.dev): An open-source database of AI models
 - [Agent Leaderboard](https://huggingface.co/spaces/galileo-ai/agent-leaderboard)
 
 ## What to do when the dreaded "rate limit" message hits
@@ -536,10 +537,6 @@ https://github.com/modelcontextprotocol/servers
 - [MCP vs SLOP](https://mcpslop.com/)
 - [A2A](https://google.github.io/A2A/)
 
-## Creating my own MCP server
-
-*TODO*
-
 ## Start from scratch or with a boilerplate?
 
 Generally LLMs do better starting fresh. But you can also start with a
@@ -716,6 +713,14 @@ minimal amount of tools (`list_files`, `read_file`, `edit_file`) in Go, step-by-
 
 If you want to go deeper, [this series of open source books](https://gerred.github.io/building-an-agentic-system)
 by Gerred is definetely a great start.
+
+# Tips and Tricks on Specific Tools and Agents
+
+## Claude Code
+
+- [Claude Code Guide](https://github.com/zebbern/claude-code-guide): Covers every discoverable Claude Code command,
+  including many features that are not widely known or documented in basic
+  tutorials
 
 # 🛠️  Tools
 
