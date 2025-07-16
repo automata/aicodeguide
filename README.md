@@ -714,7 +714,7 @@ minimal amount of tools (`list_files`, `read_file`, `edit_file`) in Go, step-by-
 If you want to go deeper, [this series of open source books](https://gerred.github.io/building-an-agentic-system)
 by Gerred is definetely a great start.
 
-# Tips and Tricks on Specific Tools and Agents
+# ✨ Tips and Tricks on Specific Tools and Agents
 
 ## Claude Code
 
