@@ -294,10 +294,8 @@ list of goals/use you might have and which model to use it for:
 
 | Goal                 | Models                                                        |
 |----------------------|---------------------------------------------------------------|
-| Brainstorming        | GPT 4.5, 4o, o3, Grok                                         |
-| PRD creation         | GPT o1-pro, Grok                                              |
-| Task split           | GPT o1-pro                                                    |
-| Coding               | Gemini 2.5 Pro, Claude Sonnet 4, Grok 4, GPT 4.1, o3, o4-mini |
+| Brainstorming        | GPT 5, 4o, o3, Grok                                           |
+| Coding               | Claude Sonnet 4, Gemini 2.5 Pro, Grok, GPT 5, o3, o4-mini     |
 
 Given LLMs change in a daily basis, this table gets outdated fast. Please check
 the following leaderboards for more accurate comparison:
@@ -323,7 +321,7 @@ Different models have very different token limits. For example, as I
 write in late April 2025, gpt-4.1-mini is much more generous than
 gpt-4.1. Have several API keys in your pocket (this is inexpensive, since
 you pay as you go) and visit the pages describing rate limits.
-Here's [Anthropic's]https://console.anthropic.com/settings/limits as an example.
+Here's [Anthropic's](https://console.anthropic.com/settings/limits) as an example.
 
 ## How do I set up project-wide rules?
 
