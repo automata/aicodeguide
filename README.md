@@ -124,7 +124,7 @@ with some web-based tool like [Bolt](https://bolt.new), [Replit](https://replit.
 [Codex](https://openai.com/codex/),
 [Cursor](https://cursor.com/), [Amp](https://ampcode.com) or [Windsurf](https://windsurf.com/).
 You can start with the
-free plan and then upgrade to $20 monthly plan. Claude Code Max plan, Codex and
+free plan and then upgrade to $20 monthly plan. Claude Code Pro plan, Codex and
 Cursor are both pretty good and cheap, given you'll have tons of tokens to use on
 most recent LLM models out there. VSCode has its own
 [Agent Mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
