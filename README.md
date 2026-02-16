@@ -59,6 +59,9 @@ Cool, let's start!
 - [Become an AI-augmented engineer](https://maryrosecook.com/blog/post/become-an-ai-augmented-engineer) by Mary Rose Cook
 - [Raising an Agent podcast](https://ampcode.com/podcast) by Amp team
 - [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) by Andrej Karpathy
+- [What I learned using AI to code for a year](https://hackable.substack.com/p/what-i-learned-using-ai-to-code-for) by Vilson Vieira
+- [The death of the stubborn developer](https://steve-yegge.medium.com/the-death-of-the-stubborn-developer-b5e8f78d326b) by Steve Yegge
+- [Software Survival 3.0](https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b) by Steve Yegge
 
 ## AI coding? Vibe coding?
 
@@ -117,30 +120,24 @@ important this is.
 with some web-based tool like [Bolt](https://bolt.new), [Replit](https://replit.com),
 [v0](https://v0.dev) or [Lovable](https://lovable.dev).
 
-- If you already know how to code, install [Cursor](https://cursor.com/) or [Windsurf](https://windsurf.com/).
+- If you already know how to code, install [Claude Code](https://claude.com/product/claude-code),
+[Codex](https://openai.com/codex/),
+[Cursor](https://cursor.com/), [Amp](https://ampcode.com) or [Windsurf](https://windsurf.com/).
 You can start with the
-free plan and then upgrade to $20 monthly plan. Cursor, is pretty good and cheap,
-given you'll have tons of tokens to use on most recent LLM models out there.  VSCode recently introduced their own [Agent Mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode) as well. It pairs with Github Copilot and uses and Agentic Workflow to make changes and edit files.  Other editors are rapidly adding Agentic features, so check your favorite editor's website for more information. These agentic features are often only enabled within Beta or Insider builds.
+free plan and then upgrade to $20 monthly plan. Claude Code Max plan, Codex and
+Cursor are both pretty good and cheap, given you'll have tons of tokens to use on
+most recent LLM models out there. VSCode has its own
+[Agent Mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
+as well. It pairs with Github Copilot and uses and Agentic Workflow to make changes
+and edit files. Other editors are rapidly adding Agentic features,
+so check your favorite editor's website for more information.
+These agentic features are often only enabled within Beta or Insider builds.
 
-- If you want a more open source alternative, try [OpenHands](https://github.com/All-Hands-AI/OpenHands).
-You run it as a Docker container
-that exposes a webapp. You'll have to create an [Anthropic API account](https://console.anthropic.com/) to get access to an API key,
-or use some LLM available in [OpenRouter](https://openrouter.ai/).
-
-- If you already know how to code and are a terminal maniac like us, check [aider](https://aider.chat/), [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
-or [OpenAI Codex](https://github.com/openai/codex).
-For those you'll need to setup API keys for Anthropic Claude, OpenAI GPT or for OpenRouter.
-
-- If you already know how to code, loves both terminal and some VSCode flavour, and really want to experiment
-the power of having subagents running in parallel for you, and don't care about costs but about getting
-things done, try [Amp](https://ampcode.com).
+- If you want a more open source alternative, try [Pi](https://pi.dev/),
+[OpenCode](https://opencode.ai/) or [OpenHands](https://github.com/All-Hands-AI/OpenHands).
 
 > Suggestion: We really recommend creating an account in OpenRouter. It's really easy and you'll
-get access to the most updated LLM models and even free versions of it. For instance,
-our go-to LLM model these days is Gemini 2.5 Pro and it's possible to run it through
-OpenRouter for free
-(there are daily quotas of credits, but it's still an interesting option for experiments
-with aider and OpenHands, for instance).
+get access to the most updated LLM models and even free versions of it.
 
 > Important note: Claude Code is super expensive these days! You can easily spend $50/day.
 So be careful, monitor your usage. That's why it's recommended to start with Cursor so you don't
@@ -181,7 +178,7 @@ will handle Markdown or asciidoc or any other purely textual format you throw at
 
 Here is a method/procedure/strategy/workflow that generally works well:
 
-1. Use `ChatGPT 4.5`, `4o` or `o3` with the following prompt:
+1. Use `ChatGPT`, Codex or Claude Code itself with the following prompt:
 
 ```
 You're a senior software engineer. We're going to build the PRD of a project
@@ -199,7 +196,7 @@ IDEA:
 2. You're going to enter in a loop of questions/answers for a few minutes. Try
    to answer as much as you can with as much details as possible. When finished
    (or when you decide it's enough), send this prompt to guide the model to
-   compile it as a PRD:
+   compile it as a PRD (this is also called SDD, or Spec-Driven Development):
 
 ```
 Compile those findings into a PRD. Use markdown format. It should contain the
@@ -289,15 +286,22 @@ interesting tips for AI coding workflows based on any LLM model
 
 ## Which LLM model I should use?
 
-LLMs are trained and finetuned with different goals, here is a comprehensive
-list of goals/use you might have and which model to use it for:
+LLMs are trained and aligned with different goals. Models like ChatGPT or Claude are trained
+to be good generic-knowledge assistants in a chat with you. In other cases,
+labs capture the output of a model running tools and "reasoning"
+about the output of the tools in long sessions (from minutes to hours long), and use the feedback
+as a reward signal to the model, aligning the original trained model to the specific task. In the case
+of Claude Opus, Sonnet or OpenAI Codex, the task is coding.
+That's why it's important to always use models that were trained/aligned for coding/programming and
+that support tools.
 
-| Goal                 | Models                                                        |
-|----------------------|---------------------------------------------------------------|
-| Brainstorming        | GPT 5, 4o, o3, Grok                                           |
-| Coding               | Claude Sonnet 4, Gemini 2.5 Pro, Grok, GPT 5, o3, o4-mini     |
+Given LLMs change in a daily basis, it's impossible these days to suggest one specific version of a model
+that is good for coding. What we can do is to advice which "family" of models you should consider.
+Nowadays we have proprietary LLM models like Claude Opus and OpenAI GPT Codex as SotA for AI coding; and
+open source models like Kimi, Minimax and GLM that are always in the tail of the proprietary ones,
+decreasing the delta more and more on each release.
 
-Given LLMs change in a daily basis, this table gets outdated fast. Please check
+To know which model version to pick, the general advice is to select the latest one, or please check
 the following leaderboards for more accurate comparison:
 
 - [OpenRouter's Models](https://openrouter.ai/models?categories=programming&fmt=table): Set categories as `programming` and also filtering
@@ -334,7 +338,8 @@ apply those on all communication with the LLM.
 - In Aider, create markdown files with [rules/conventions](https://aider.chat/docs/usage/conventions.html) you want to use (like `rules.md`)
 and add the following in your `.aider.conf.yml` file: `read: rules.md`.
 
-Also, many tools support configuring a rules/conventions file in your home directory to be applied to all your projects. For instance, in Aider you can basically add global conventions in a file
+Also, many tools support configuring a rules/conventions file in your home directory to
+be applied to all your projects. For instance, in Aider you can basically add global conventions in a file
 called `~/.global_conventions.md` and then add it to the `.aider.conf.yml` with `read: [~/.global_conventions.md, rules.md]`.
 
 You can add part of your PRD as rules, for instance, like the tech stack or
@@ -417,7 +422,7 @@ that's what I ended up using:
 - Next.js so you can deploy to Vercel and embrace their ecosystem (can get
 expensive fast)
 - Vanilla React and using React Router so you can deploy to anywhere
-- Remix so you can have good routing support and still deploy to anywhere
+- TanStack or Remix so you can have good routing support and still deploy to anywhere
 - FastHTML if you love Python and care more about exposing a core
 backend functionality (eg some data analysis, or AI/ML model pipeline) than
 super pretty UI
@@ -454,7 +459,7 @@ three.js objects as React components.
 ### Backend
 
 Backends are not well done in Web based tools like Lovable. So you will probably
-need to get your hands at Cursor/Windsurf/aider or any other non-Web-based tool.
+need to get your hands at Claude Code, Codex or any other non-Web-based tool.
 
 Using Python and FastAPI is a great option. If you prefer to stay with the
 same language of your frontend (guessing it will be JavaScript or TypeScript
@@ -720,6 +725,31 @@ by Gerred is definetely a great start.
   including many features that are not widely known or documented in basic
   tutorials
 
+## What the hell are multi-agent orchestration?!
+
+Around 2024-2025 people started flirting with the idea of running not only one but a team
+of agents to perform a given coding task. By end of 2025, Steve Yegge and others created
+the first implemnetations around the concept. 
+Gas Town](https://github.com/steveyegge/gastown) is probably the most popular so far.
+In Gas Town you have one agent called Mayor who receives a task from the user and split it in
+jobs (storing and managing those jobs in [Beads](https://github.com/steveyegge/beads),
+another tool created by Yegge, think "GitHub issues
+but for agents"). The Mayor communicates with other agents (eg Polecats, the workers)
+by messages, so every agent has its
+own mail box and act when some message is received.
+
+There are other incarnations of multi-agent orchestration like
+[Claude Flow](https://github.com/ruvnet/claude-flow) and [Loom](https://github.com/ghuntley/loom),
+but everything it's really early to know if that's the way we'll end up developing software
+in the future. It's important though to play with them, understand their inner workings, but
+one small advice: running Gas Town and other orchestration systems is pretty expensive, those
+agents running in parallel can eat tons of tokens in seconds.
+
+- [Welcome to Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
+- [The Future of Coding Agents](https://steve-yegge.medium.com/the-future-of-coding-agents-e9451a84207c)
+- [Gas Town Emergency User Manual](https://steve-yegge.medium.com/gas-town-emergency-user-manual-cf0e4556d74b)
+
+
 # 🛠️  Tools
 
 Here we keep an updated list of main tools around using AI for coding. We tested
@@ -739,13 +769,14 @@ most of them and you'll find our honest opinion during the time we tested them.
 ## CLI
 
 - [Claude Code](https://github.com/anthropics/claude-code)
+- [OpenAI Codex](https://github.com/openai/codex)
+- [Pi](https://pi.dev)
+- [opencode](https://github.com/opencode-ai/opencode)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 - [Aider](http://aider.chat/)
 - [Claude Engineer](https://github.com/Doriandarko/claude-engineer)
 - [Roo Code](https://github.com/RooVetGit/Roo-Code)
-- [OpenAI Codex CLI](https://github.com/openai/codex)
 - [Codebuff](https://www.codebuff.com/)
-- [opencode](https://github.com/opencode-ai/opencode)
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
 ## Webapps
 
@@ -782,6 +813,7 @@ on their own projects.
 
 - [Addy Osmani](https://x.com/addyosmani)
 - [Andrej Karpathy](https://x.com/karpathy)
+- [Armin Ronacher](https://x.com/mitsuhiko)
 - [Beyang Liu](https://x.com/beyang) (Amp)
 - [Cat Wu](https://x.com/_catwu) (Claude Code)
 - [Eric S. Raymond](https://x.com/esrtweet)
@@ -789,11 +821,13 @@ on their own projects.
 - [Geoffrey Huntley](https://x.com/GeoffreyHuntley)
 - [Gerred Dillon](https://x.com/devgerred)
 - [Harper Reed](https://x.com/harper)
+- [Mario Zechner](https://x.com/badlogicgames) (pi)
 - [Nathan Wilbanks](https://x.com/NathanWilbanks_) (agnt, SLOP)
 - [Pietro Schirano](https://x.com/skirano)
 - [Quinn Slack](https://x.com/sqs) (Amp)
 - [Sandeep Pani](https://x.com/skcd42) (Aider, AgentFarm)
 - [Simon Willison](https://x.com/simonw)
+- [Steve Yegge](https://x.com/Steve_Yegge) (Gas Town)
 - [Vilson Vieira](https://x.com/aut0mata)
 - [Thorsten Ball](https://x.com/thorstenball) (Amp)
 - [Xingyao Wang](https://x.com/xingyaow_) (OpenHands, AllHands)
@@ -818,6 +852,10 @@ reference, please feel free to open a new PR, a new issue or get in touch with
 [Eric](https://x.com/esrtweet) or [Vilson](https://x.com/aut0mata).
 
 If you like this guide, please consider giving it a star ⭐ and follow it for new updates!
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=automata/aicodeguide&type=date&legend=top-left)](https://www.star-history.com/#automata/aicodeguide&type=date&legend=top-left)
 
 # ⚖️ License
 
