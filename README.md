@@ -729,8 +729,8 @@ by Gerred is definetely a great start.
 
 Around 2024-2025 people started flirting with the idea of running not only one but a team
 of agents to perform a given coding task. By end of 2025, Steve Yegge and others created
-the first implemnetations around the concept. 
-Gas Town](https://github.com/steveyegge/gastown) is probably the most popular so far.
+the first implemnetations around the concept.
+[Gas Town](https://github.com/steveyegge/gastown) is probably the most popular so far.
 In Gas Town you have one agent called Mayor who receives a task from the user and split it in
 jobs (storing and managing those jobs in [Beads](https://github.com/steveyegge/beads),
 another tool created by Yegge, think "GitHub issues
