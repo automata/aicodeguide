@@ -717,14 +717,6 @@ minimal amount of tools (`list_files`, `read_file`, `edit_file`) in Go, step-by-
 If you want to go deeper, [this series of open source books](https://gerred.github.io/building-an-agentic-system)
 by Gerred is definetely a great start.
 
-# ✨ Tips and Tricks on Specific Tools and Agents
-
-## Claude Code
-
-- [Claude Code Guide](https://github.com/zebbern/claude-code-guide): Covers every discoverable Claude Code command,
-  including many features that are not widely known or documented in basic
-  tutorials
-
 ## What the hell are multi-agent orchestration?!
 
 Around 2024-2025 people started flirting with the idea of running not only one but a team
@@ -749,6 +741,13 @@ agents running in parallel can eat tons of tokens in seconds.
 - [The Future of Coding Agents](https://steve-yegge.medium.com/the-future-of-coding-agents-e9451a84207c)
 - [Gas Town Emergency User Manual](https://steve-yegge.medium.com/gas-town-emergency-user-manual-cf0e4556d74b)
 
+# ✨ Tips and Tricks on Specific Tools and Agents
+
+## Claude Code
+
+- [Claude Code Guide](https://github.com/zebbern/claude-code-guide): Covers every discoverable Claude Code command,
+  including many features that are not widely known or documented in basic
+  tutorials
 
 # 🛠️  Tools
 
