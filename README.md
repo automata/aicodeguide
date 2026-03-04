@@ -826,7 +826,7 @@ on their own projects.
 - [Quinn Slack](https://x.com/sqs) (Amp)
 - [Sandeep Pani](https://x.com/skcd42) (Aider, AgentFarm)
 - [Simon Willison](https://x.com/simonw)
-- [Steve Yegge](https://x.com/Steve_Yegge) (Gas Town)
+- [Steve Yegge](https://x.com/Steve_Yegge) (Gas Town, Beads, Wasteland)
 - [Vilson Vieira](https://x.com/aut0mata)
 - [Thorsten Ball](https://x.com/thorstenball) (Amp)
 - [Xingyao Wang](https://x.com/xingyaow_) (OpenHands, AllHands)
