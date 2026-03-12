@@ -154,8 +154,8 @@ After you installed and played with those tools a bit, you'll notice they will
 hallucinate, enter in endless cycles of trying to fix a possible error, etc.
 It's important to know how to prompt well. Some tips:
 
-- Do not ask everything in one prompt. Only prompting "hey, building me an app
-  to for my pet store" doesn't help a software engineer and much less an AI :-)
+- Do not ask everything in one prompt. Only prompting "hey, build me an app
+  for my pet store" doesn't help a software engineer and much less an AI :-)
   Understand your project, brainstorm first with an LLM, create a PRD
   (Product Requirements Document), make a plan and split them in tasks. You'll
   find bellow a recipe on how to use ChatGPT to create one for you.
