@@ -850,6 +850,7 @@ most of them and you'll find our honest opinion during the time we tested them.
 - [Claude Task master](https://github.com/eyaltoledano/claude-task-master)
 - [CodeGuide](https://www.codeguide.dev/)
 - [repomix](https://repomix.com/)
+- [DevProjex](https://github.com/Avazbek22/DevProjex)
 - [files-to-prompt](https://github.com/simonw/files-to-prompt)
 - [repo2txt](https://github.com/donoceidon/repo2txt)
 - [stakgraph](https://github.com/stakwork/stakgraph)
